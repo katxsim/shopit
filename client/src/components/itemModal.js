@@ -32,7 +32,7 @@ state = {
        e.preventDefault();
 
        const newItem = {
-            name: this.state.name
+        name: this.state.name
        };
 
        this.props.addItem(newItem);
